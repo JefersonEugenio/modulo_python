@@ -5,6 +5,6 @@ NOMECLATURA ERRADAS
 -> Não pode incluir simbolo
 mai$ = "mais";
 
+class = "Python"; erro
+classe = "Python"; certo
 """
-
-class = "Python";
