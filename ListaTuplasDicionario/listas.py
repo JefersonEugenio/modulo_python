@@ -56,8 +56,12 @@ marcaRemover = marca.pop(2);
 print(marcaRemover);
 
 print("=============");
-cores = ["amarelo", "azul", "branco", "vermelho"];
+cores = ["marrom", "roxo", "amarelo", "azul", "branco", "vermelho"];
 print("Cores: ", cores);
 cores.sort();
-cores.sort();
+print("Ordem: ", cores);
+
+print("=============");
+from random import shuffle
+shuffle(cores);
 print("Embaralhado: ", cores);
