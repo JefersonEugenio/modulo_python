@@ -58,6 +58,11 @@ numero1 = int(input("Digite um numero: "));
 numero2 = int(input("Digite um numero: "));
 numero3 = int(input("Digite um numero: "));
 
+if (numero1 > 0 or numero2 > 0 or numero3 > 0):
+    print("Existe um deles é positivo");
+else:
+    print("nenhum um deles é positivo");
+
 print('===============================');
 # 7- Escreva um programa que solicite ao usuário uma letra e
 # verifique se ela é uma vogal (a, e, i, o, u).
@@ -94,3 +99,7 @@ print('===============================');
 # inteiro e verifique se ele é um múltiplo de 3 e 5 ao mesmo tempo.
 print('10)');
 numero1 = int(input("Digite um numero: "));
+if ((numero1 % 3) == 0 and (numero1 % 5) == 0):
+    print("Resultado é: 0" );
+else:
+    print("Resultado não é: 0" );
