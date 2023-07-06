@@ -55,7 +55,8 @@ print('8)');
 aluno = {
     'nome' : 'jeferson',
     'idade' : 30,
-    'cidade' : 'Canoas-RS'
+    'cidade' : 'Canoas-RS',
+    'hobbies' : ["futebol", "video game"]
 }
 print(aluno.keys());
 print('===============================');
